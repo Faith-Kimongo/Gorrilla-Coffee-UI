@@ -24,12 +24,13 @@
     <!--bootstrap icons-->
     <!-- <link rel="stylesheet" href="css/bootstrap-icons.css"> -->
     <link rel="stylesheet" href="css/bootstrap-icons.css">
+    
+    <script src="iconify.min.js"></script>
 </head>
 <body>
 
     <!--Header Start-->
-    <header class="header p-3 position-absolute start-0 top-0 end-0"
-    style="background-color: black;">
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
         <div class="d-flex justify-content-between align-items-center">
            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">GorillaCoffee</a> 
 
@@ -50,82 +51,264 @@
 
     <!--Header end-->
 
+    <!--Flyout Navigation start-->
+
     <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
         
-        <div class="container-fluid">
+        <div class="dropdown-nav__container container-fluid d-flex align-items-start
+        align-items-md-center">
 
+            <div class="row align-items-center">
+
+                <div class="col-12 col-sm-4 mt-4">
+
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="Figma/img12.webp" alt="img12.webp"
+                            class="img-fluid" width="311" height="467" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="Figma/img12.webp" alt="img12.webp"
+                            class="img-fluid" width="311" height="467" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="Figma/img12.webp" alt="img12.webp"
+                            class="img-fluid" width="311" height="467" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+                            <h3>Amazing Flavor</h3>
+                            <p>Find out more about our amazing flavour</p>
+                            <p>Learn More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></p>
+                        </div>
+                    </a>
+                </div>
+
+        
             <div class="row align-items-start">
+                <div class="col-12">
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbar"
+                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                
+                    </button>
 
-                <div class="col-12 col-sm-4 mt-4">
-
-                    <a href="#" class="row text-decoration-none">
-
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="Figma/img12.webp" alt="img12.webp"
-                            class="img-fluid" width="311" height="467" Loading="lazy">
-                        </div>
-
-                        <div class="col-10">
-                            <h3>Amazing Flavor</h3>
-                            <p>Find out more about our amazing flavour</p>
-                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
-                        </div>
-                    </a>
+                    </div>
 
                 </div>
+        
 
-                <div class="col-12 col-sm-4 mt-4">
+            </div>
+            
+        </div>
+    </div>
 
-                    <a href="#" class="row text-decoration-none">
+  </nav>
 
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="Figma/img12.webp" alt="img12.webp"
-                            class="img-fluid" width="311" height="467" Loading="lazy">
-                        </div>
+  <!--Flyout Navigation end-->
 
-                        <div class="col-10">
-                            <h3>Amazing Flavor</h3>
-                            <p>Find out more about our amazing flavour</p>
-                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
-                        </div>
-                    </a>
-                </div>
+  <!--Hero Start-->
+  <section class="hero">
 
-                <div class="col-12 col-sm-4 mt-4">
+    <div class="hero__overlay"></div>
 
-                    <a href="#" class="row text-decoration-none">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted"
+    Loop="loop" Loading="lazy" class="hero__video">
+        <source src="Figma/production ID 4281782.mp4" type="video/mp4">
+        
+    </video>
 
-                        <div class="col-2 col-sm-12 mb-4">
-                            <img src="Figma/img12.webp" alt="img12.webp"
-                            class="img-fluid" width="311" height="467" Loading="lazy">
-                        </div>
-
-                        <div class="col-10">
-                            <h3>Amazing Flavor</h3>
-                            <p>Find out more about our amazing flavour</p>
-                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
-                        
-                    </a>
-                </div>
-
+    <div class="hero__content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero__content-width">
+            <div class="text-white">
+                <h1 class="hero__heading fw-bold mb-4">Coffee First Schemes Later.</h1>
+                <p class="lead mb-4">Today's good mood is sponsored by coffee.</p>
+                <a href="#" class="mt-2 btn btn-lg btn-outline-light" 
+                role="button"> Buy now </a>
 
             </div>
 
-        <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-
-       </button>
+        </div>
 
     </div>
 
+    <a href="#scroll-down" class="hero__scroll-btn">
+        Explore <span class="iconify" data-icon="bi:arrow-down-short"></span>
+    </a>
+    
+
+  </section>
+
+  <!--Hero End-->
+
+  <a id="scroll-down"></a>
+  <!--Section One start-->
+  <section class="steps container-custom">
+      <div class="row">
+          <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+              <img src="Figma/img11.webp" alt="img11" class="img-fluid mt-4 mb-4 steps__section-thumbnail"
+              width="577" height="385" loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 pb-4 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span></span>
+                    <h1 class="h2 mb-4">Amazing Coffee Flavour</h1>
+                    <p class="mb-4">May your coffee kick in before reality does!</p>
+                    <a href="#">Read More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></a>
+                </div>
+            </div>
+
+      </div>
+  </section>
+  <!--Section One end-->
+  
+  <!--Section two start-->
+  <section class="steps steps--background">
+
+    <div class="container-custom">
+
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                <img src="Figma/img6.jpeg" alt="img6" class="img-fluid mt-4 mb-4 steps__section-thumbnail"
+                width="577" height="385" loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 pb-4 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span></span>
+                    <h1 class="h2 mb-4">Surprising Benefits</h1>
+                    <p class="mb-4">Yes, I could start my day without coffee. But I like being able 
+                        to remember things like how to say words and put on pants.</p>
+                    <a href="#">Read More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+  <!--Section two end-->
+
+  <!--Section three end-->
+  <section class="steps container-custom">
+    <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+            <img src="Figma/images.jpeg" alt="images" class="img-fluid mt-4 mb-4 steps__section-thumbnail"
+            width="960" height="2700" loading="lazy">
+          </div>
+
+          <div class="col-12 col-sm-6 pb-4 align-self-center justify-content-md-center">
+              <div class="steps__content-width">
+                  <span></span>
+                  <h1 class="h2 mb-4">Essential nutrients</h1>
+                  <p class="mb-4">Life without coffee is like something without something … sorry, I haven’t had any coffee yet.</p>
+                  <a href="#">Read More <span class="iconify-inline" data-icon="ant-design:arrow-right-outlined"></span></a>
+              </div>
+          </div>
+
+    </div>
+</section>
+  <!--Section three end-->
+
+
+  <!--Section with three col's start-->
+  <section class="bg-dark text-white py-4">
+      <div class="container-custom my-4">
+          <div class="row">
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="Figma/img10.webp" class="mb-4 img-fluid"
+                alt="img10" width="441" height="248" Loading="lazy">
+                <h3>Amazing Coffee Flavour</h3>
+                <p>I like my coffee like I like myself: strong, sweet, and too hot for you.</p>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="Figma/benefits.webp" class="mb-4 img-fluid"
+                alt="benefits" width="411" height="248" Loading="lazy">
+                <h3>Surprising Benefits</h3>
+                <p>Caffeine and sugar, the two basic food groups.</p>
+            </div>
+
+            <div class="col-12 col-sm-4 mb-4">
+                <img src="Figma/nutrients1.jpeg" class="mb-4 img-fluid"
+                alt="nutrients" width="411" height="248" Loading="lazy">
+                <h3>Essential nutrients</h3>
+                <p>It’s amazing how the world begins to change through the eyes of coffee.</p>
+            </div>
+          </div>
+      </div>
+
+  </section>
+
+  <!--Section with three col's end-->
+
+  <!--Footer start-->
+  <footer class="footer bg-dark text-white">
+      <div class="container-custom d-flex justify-content-between align-items-center
+      py-3 border-highlight">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="me-2 text-muted text-decoration-none">
+                <span class="iconify" data-icon="bi:cup"></span>
+                <span class="muted">&copy; 2022 GorillaCoffee</span>
+            </a>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+            <li class="ms-3"><a class="text-muted" ><span class="iconify" data-icon="icon-park:twitter"></span></a></li>
+            <li class="ms-3"><a class="text-muted" ><span class="iconify" data-icon="icon-park:facebook"></span></a></li>
+            <li class="ms-3"><a class="text-muted" ><span class="iconify" data-icon="icon-park:instagram"></span></a></li>
+
+        </ul>
+
+      </div>
+  </footer>
+
+
+  <!--Footer end-->
 
 
 
-    </nav>
+
+
+
+
+ 
 
 
     
